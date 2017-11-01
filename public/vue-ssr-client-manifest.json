@@ -1,19 +1,19 @@
 {
   "publicPath": "/public/",
   "all": [
-    "0.64452f05ad44701021f0.js",
-    "vendor.d320b87b5ae38435dd02.js",
-    "app.c24d651cedacfd777f5c.js",
-    "manifest.d05e093dc107bcffd4a1.js",
-    "common.c24d651cedacfd777f5c.css"
+    "0.4b38768d6fc273ec0b91.js",
+    "vendor.bf84cb8e9349b5a875d9.js",
+    "app.f088c8b37fca869c4c8f.js",
+    "manifest.a66f208e00765c14dd8e.js",
+    "common.f088c8b37fca869c4c8f.css"
   ],
   "initial": [
-    "manifest.d05e093dc107bcffd4a1.js",
-    "vendor.d320b87b5ae38435dd02.js",
-    "app.c24d651cedacfd777f5c.js"
+    "manifest.a66f208e00765c14dd8e.js",
+    "vendor.bf84cb8e9349b5a875d9.js",
+    "app.f088c8b37fca869c4c8f.js"
   ],
   "async": [
-    "0.64452f05ad44701021f0.js"
+    "0.4b38768d6fc273ec0b91.js"
   ],
   "modules": {
     "36109259": [
@@ -817,16 +817,22 @@
       2,
       4
     ],
-    "7bade33a": [
-      0
-    ],
     "24713cf5": [
       1
+    ],
+    "7bade33a": [
+      0
     ],
     "59d3c2f7": [
       1
     ],
     "1a2b865b": [
+      0
+    ],
+    "02fe2404": [
+      0
+    ],
+    "093658e5": [
       0
     ],
     "3b49aba8": [
