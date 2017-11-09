@@ -1,6 +1,6 @@
 <template>
   <div class="facts-page">
-    <h1 class="brand"><img src="/static/square.png" alt="">Goofies</h1>
+    <h1 class="brand"><img src="/images/square.png" alt="">Goofies</h1>
     <h4 class="description">Goofies Firebase Vue SSR Template</h4>
     <ul class="true-facts">
       <li class="fact" v-for="fact in trueFacts" :key="fact">

@@ -12,8 +12,8 @@ module.exports = {
     ? false
     : '#cheap-module-source-map',
   output: {
-    path: resolve('../public'),
-    publicPath: '/public/',
+    path: resolve('../public/assets'),
+    publicPath: '/assets',
     filename: '[name].[chunkhash].js'
   },
   resolve: {
@@ -28,7 +28,6 @@ module.exports = {
       'pages': resolve('../pages'),
       'public': resolve('../public'),
       'router': resolve('../router'),
-      'static': resolve('../static'),
       'store': resolve('../store'),
       'vue$': 'vue/dist/vue.common.js'
     }
@@ -45,6 +44,16 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: "style-loader" // creates style nodes from JS strings
+        }, {
+          loader: "css-loader" // translates CSS into CommonJS
+        }, {
+          loader: "sass-loader" // compiles Sass to CSS
+        }]
       },
       {
         test: /\.styl$/,
