@@ -1,0 +1,360 @@
+[debug] [2017-11-27T17:21:18.289Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:21:18.292Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:21:18.293Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:21:18.293Z] Platform:      win32
+[debug] [2017-11-27T17:21:18.293Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:21:18.293Z] Time:          Mon Nov 27 2017 20:21:18 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:18.293Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:21:18.306Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:21:18.306Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:21:18.308Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-27T17:21:18.309Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/wOcmgYD4S55i9ungHZ6ouKaRvlevRSJ7qSIgb7uYuAA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Nov 27 2017 20:21:18 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:18.576Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:21:18.605Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:21:18 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:19.423Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:21:19.424Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:21:19 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:20.182Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:21:27.318Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:21:27 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:27.318Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:21:27 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:27.319Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:21:27 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:28.424Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:21:28.509Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:21:28.594Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:21:28.594Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:21:28 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:21:29.197Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function app
+[info] Shutting down...
+[debug] [2017-11-27T17:22:33.583Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:22:33.588Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:22:33.588Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:22:33.588Z] Platform:      win32
+[debug] [2017-11-27T17:22:33.588Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:22:33.589Z] Time:          Mon Nov 27 2017 20:22:33 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:22:33.589Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:22:33.605Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:22:33.605Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:22:33.609Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:22:33 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:22:34.434Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:22:34.436Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:22:34 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:22:35.275Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:22:36.009Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:22:36 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:22:36.010Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:22:36 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:22:36.010Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:22:36 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:22:36.982Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:22:37.045Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:22:37.046Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:22:37 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:22:37.408Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:22:37.615Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function server
+[debug] [2017-11-27T17:23:27.821Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:23:27.823Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:23:27.824Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:23:27.824Z] Platform:      win32
+[debug] [2017-11-27T17:23:27.824Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:23:27.824Z] Time:          Mon Nov 27 2017 20:23:27 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:23:27.824Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:23:27.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:23:27.839Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:23:27.841Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:23:27 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:23:28.674Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:23:28.675Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:23:28 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:23:29.435Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:23:30.086Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:23:30 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:23:30.087Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:23:30 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:23:30.087Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:23:30 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:23:31.085Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:23:31.117Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:23:31.117Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:23:31 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:23:31.187Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:23:31.748Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function server
+[debug] [2017-11-27T17:24:24.116Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:24:24.119Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:24:24.119Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:24:24.119Z] Platform:      win32
+[debug] [2017-11-27T17:24:24.119Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:24:24.120Z] Time:          Mon Nov 27 2017 20:24:24 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:24:24.120Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:24:24.132Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:24:24.133Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:24:24.135Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:24:24 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:24:25.340Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:24:25.341Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:24:25 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:24:26.168Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:24:26.771Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:24:26 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:24:26.771Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:24:26 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:24:26.772Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:24:26 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:24:27.857Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:24:27.930Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:24:27.930Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:24:27 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:24:28.333Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:24:28.476Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function server
+[info] [hosting] Rewriting / to local function server
+[info] Shutting down...
+[debug] [2017-11-27T17:26:21.264Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:26:21.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:26:21.268Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:26:21.268Z] Platform:      win32
+[debug] [2017-11-27T17:26:21.268Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:26:21.268Z] Time:          Mon Nov 27 2017 20:26:21 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:26:21.268Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:26:21.286Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:26:21.287Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:26:21.290Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:26:21 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:26:23.408Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:26:23.409Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:26:23 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:26:24.069Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:26:24.811Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:26:24 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:26:24.812Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:26:24 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:26:24.812Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:26:24 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:26:25.800Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:26:25.806Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:26:25.807Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:26:25 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:26:26.065Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:26:26.849Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[warn] !  functions: Error from emulator. FirebaseError: Error occurred while parsing your function triggers.
+
+TypeError: require(...) is not a function
+    at Object.<anonymous> (C:\Users\lutfu\projects\Vue-SSR-Template\functions\index.js:1:92)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\lib\triggerParser.js:18:11
+    at Object.<anonymous> (C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\lib\triggerParser.js:32:3)
+[info] Shutting down...
+[debug] [2017-11-27T17:33:31.512Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:33:31.515Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:33:31.515Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:33:31.515Z] Platform:      win32
+[debug] [2017-11-27T17:33:31.515Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:33:31.516Z] Time:          Mon Nov 27 2017 20:33:31 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:33:31.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:33:31.529Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:33:31.529Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:33:31.532Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:33:31 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:33:32.715Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:33:32.716Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:33:32 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:33:33.601Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:33:34.201Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:33:34 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:33:34.201Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:33:34 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:33:34.202Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:33:34 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:33:35.381Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:33:35.382Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:33:35 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:33:35.384Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:33:35.459Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:33:36.125Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function server
+[info] [hosting] Rewriting / to local function server
+[debug] [2017-11-27T17:36:04.479Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:36:04.482Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:36:04.482Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:36:04.482Z] Platform:      win32
+[debug] [2017-11-27T17:36:04.482Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:36:04.483Z] Time:          Mon Nov 27 2017 20:36:04 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:04.483Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:36:04.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:36:04.496Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:36:04.498Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:36:04 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:05.481Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:36:05.482Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:36:05 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:06.243Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:36:06.844Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:36:06 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:06.845Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:36:06 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:06.845Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:36:06 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:07.863Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:36:07.898Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:36:07.898Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:36:07 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:08.484Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-11-27T17:36:12.783Z] <<< HTTP RESPONSE 200
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function server
+[debug] [2017-11-27T17:36:42.170Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:36:42.173Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:36:42.173Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:36:42.173Z] Platform:      win32
+[debug] [2017-11-27T17:36:42.173Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:36:42.173Z] Time:          Mon Nov 27 2017 20:36:42 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:42.174Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:36:42.189Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:36:42.189Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:36:42.192Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:36:42 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:43.067Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:36:43.068Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:36:43 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:43.976Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:36:44.806Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:36:44 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:44.807Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:36:44 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:44.807Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:36:44 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:45.775Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:36:45.877Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:36:45.878Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:36:45 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:36:45.897Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:36:46.451Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function server
+[debug] [2017-11-27T17:38:09.515Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T17:38:09.518Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lutfu\AppData\Local\Yarn\config\global\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-11-27T17:38:09.518Z] CLI Version:   3.13.1
+[debug] [2017-11-27T17:38:09.518Z] Platform:      win32
+[debug] [2017-11-27T17:38:09.518Z] Node Version:  v6.11.4
+[debug] [2017-11-27T17:38:09.519Z] Time:          Mon Nov 27 2017 20:38:09 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:38:09.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T17:38:09.531Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T17:38:09.532Z] > authorizing via signed-in user
+[debug] [2017-11-27T17:38:09.534Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:38:09 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:38:10.447Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:38:10.448Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/goofies-vue-template/tokens  
+ Mon Nov 27 2017 20:38:10 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:38:11.210Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lutfu\projects\Vue-SSR-Template'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T17:38:11.728Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/goofies-vue-template  
+ Mon Nov 27 2017 20:38:11 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:38:11.728Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/goofies-vue-template/apiKeys  
+ Mon Nov 27 2017 20:38:11 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:38:11.729Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/goofies-vue-template  
+ Mon Nov 27 2017 20:38:11 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:38:12.710Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:38:12.710Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1056039060834/clients/_:getWebAppConfig  
+ Mon Nov 27 2017 20:38:12 GMT+0300 (Türkiye Standart Saati)
+[debug] [2017-11-27T17:38:12.785Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:38:13.014Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T17:38:13.185Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: server: http://localhost:5001/goofies-vue-template/us-central1/server
+[info] [hosting] Rewriting / to local function server
+[info] [hosting] Rewriting / to local function server
+[info] Shutting down...
