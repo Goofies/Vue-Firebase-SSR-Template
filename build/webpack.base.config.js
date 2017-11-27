@@ -13,7 +13,7 @@ module.exports = {
     : '#cheap-module-source-map',
   output: {
     path: resolve('../public/assets'),
-    publicPath: '/assets',
+    publicPath: '/assets/',
     filename: '[name].[chunkhash].js'
   },
   resolve: {
